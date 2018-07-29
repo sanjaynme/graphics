@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPropertyAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="getPropertyAnimation"
+        android:text="@string/property_animation" />
+
+    <Button
+        android:id="@+id/btnViewAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPropertyAnimation"
+        android:layout_centerHorizontal="true"
+        android:onClick="getViewAnimation"
+        android:text="@string/view_animation" />
+
+    <Button
+        android:id="@+id/btnDrawableAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnViewAnimation"
+        android:layout_centerHorizontal="true"
+        android:onClick="getDrawableAnimation"
+        android:text="@string/drawable_animation" />
+
+    <Button
+        android:id="@+id/btnCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDrawableAnimation"
+        android:layout_centerHorizontal="true"
+        android:onClick="getCanvas"
+        android:text="@string/canvas" />
+
+    <Button
+        android:id="@+id/btnTransformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCanvas"
+        android:layout_centerHorizontal="true"
+        android:onClick="getTransformation"
+        android:text="@string/transformation" />
+
+    <Button
+        android:id="@+id/btnOpengles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTransformation"
+        android:layout_centerHorizontal="true"
+        android:onClick="getOpengles"
+        android:text="@string/opengles" />
+
+</RelativeLayout>

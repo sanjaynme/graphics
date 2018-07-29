@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Graphics and Animation </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sun">Sun</string>
+    <string name="ground">Ground</string>
+    <string name="window">Window</string>
+    <string name="cloud">Cloud</string>
+    <string name="animation_on">Animation On</string>
+    <string name="animation_off">Animation Off</string>
+    <string name="title_activity_property_animation">Property Animation</string>
+    <string name="property_animation">Property Animation</string>
+    <string name="title_activity_view_animation">View Animation</string>
+    <string name="view_animation">View Animation</string>
+    <string name="get_together">Get Together!</string>
+    <string name="title_activity_drawable_animation">Drawable Animation</string>
+    <string name="drawable_animation">Drawable Animation</string>
+    <string name="title_activity_shape_drawable">2D Drawing on Canvas</string>
+    <string name="canvas">2D Drawing on Canvas</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="oval">Oval</string>
+    <string name="title_activity_rotate_text_view">Transformation on Canvas</string>
+    <string name="transformation">Transformation on Canvas</string>
+    <string name="title_activity_open_gles10">OpenGL ES Demo</string>
+    <string name="opengles">OpenGL ES Demo</string>
+
+</resources>
